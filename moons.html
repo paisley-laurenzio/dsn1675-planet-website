@@ -5,20 +5,34 @@
   <title>Mars Moons</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
-<link href="css/grid%20moon.css" rel="stylesheet">
+  <link href="css/grid%20moon.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">  
 </head>
 <body>
     <header class="header">
-    <h1 class="title">Mars</h1>
+        
+    <div class="grid">
+    
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4"> 
+            <h1 class="title peta">Mars</h1>
+        </div>
 
-    <ul class="nav">
-        <li><a href="index.html">Planet</a></li>
-        <li><a href="#">Moons</a></li>
-        <li><a href="#">Exploration</a></li>
-    </ul>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
+            <ul class="nav">
+                <li class="giga"><a href="index.html">Planet</a></li>
+                <li class="giga"><a href="#">Moons</a></li>
+                <li class="giga"><a href="#">Exploration</a></li>
+            </ul>
+        </div>
+    </div>
+    
     </header>
 
-    <h2>Moons</h2>
+    <div class="quote">
+        <p class="tera">Mars is the fourth planet from the Sun and the second smallest planet in the Solar System.</p>
+    </div>    
+    
+    <h2 class="exa">Moons</h2>
     
     <div class="grid">
         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
@@ -27,10 +41,20 @@
                     <img src="images/640px-Phobos_colour_2008.jpg" alt="">
                 </div>
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">
-                    <h2>Phobos</h2>
+                    <h2 class="tera">Phobos</h2>
                     <p>The illuminated part of Phobos seen in the images is about 21 kilometers (13 miles) across.</p>
                 </div>
             </div>
+            <dl>
+                <dt class="milli">Dimensions</dt>
+                <dd class="giga">27 × 22 × 18 km</dd>
+
+                <dt class="milli">Mass</dt>
+                <dd class="giga">1.0659×1016 kg</dd>
+
+                <dt class="milli">Rotation period</dt>
+                <dd class="giga">Synchronous</dd>
+            </dl>
         </div>
         
         
@@ -42,12 +66,23 @@
                 </div>
                 
                 <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-2">    
-                    <h2>Deimos</h2>
+                    <h2 class="tera">Deimos</h2>
                     <p>Deimos, a moon of Mars, captured by the HiRISE instrument on the Mars Reconnaissance Orbiter on 21 Feb 2009.</p>
                 </div>
             </div>
+            <dl>
+                <dt class="milli">Dimensions</dt>
+                <dd class="giga">15 × 12.2 × 11 km</dd>
+
+                <dt class="milli">Mass</dt>
+                <dd class="giga">1.4762×1015 kg</dd>
+                
+                <dt class="milli">Rotation period</dt>
+                <dd class="giga">Synchronous</dd>
+            </dl>
         </div>
-        
     </div>
+    
+    
 </body>
 </html>

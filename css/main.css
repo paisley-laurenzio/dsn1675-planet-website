@@ -53,7 +53,7 @@ img {
 }
 
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 25em) {
  
 .nav li { 
   display: inline-block;
@@ -64,14 +64,16 @@ img {
 }
 }
 
-@media only screen and (min-width: 55em) {
- 
+@media only screen and (min-width: 38em) {
 .title {
-  float: left;
-  margin: 0;
+  text-align: left;   
 }
-    
-.nav{
-  float:left;
-}    
+
+.nav {
+  text-align: left;
+}
+}
+
+.quote{
+background-color: #e2e2e2;
 }
