@@ -36,6 +36,13 @@ img {
   background-color: #d0d0d0;
   overflow: hidden;
 }
+
+.footer{
+  margin: 0;
+  padding: 0;
+  background-color: #d0d0d0;
+  overflow: hidden;
+}
     
 .nav {
   padding: 0;
