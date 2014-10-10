@@ -43,6 +43,14 @@ img {
   background-color: #d0d0d0;
   overflow: hidden;
 }
+
+.lightgrey {
+background-color: #e2e2e2;
+}
+
+.lightergrey {
+background-color: #efefef;
+}
     
 .nav {
   padding: 0;
@@ -52,6 +60,7 @@ img {
 .nav a {
   text-decoration: none;
   color: #0074D9;
+    display:block;
 }
 
 .title {
@@ -83,4 +92,5 @@ img {
 
 .quote{
 background-color: #e2e2e2;
+text-align: center;
 }
