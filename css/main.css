@@ -97,6 +97,10 @@ background-color: #e2e2e2;
 text-align: center;
 }
 
+.hiddentitle{
+display: none;
+}
+
 @media only screen and (min-width: 25em) {
  
 .nav li { 
@@ -110,6 +114,10 @@ text-align: center;
 .navcopyright{
 text-align: center;
 }
+    
+.hiddentitle{
+display: inline-block;
+} 
 }
 
 @media only screen and (min-width: 38em) {
