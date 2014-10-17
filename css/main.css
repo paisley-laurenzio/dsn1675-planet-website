@@ -64,11 +64,11 @@ img {
 }
 
 .lightgrey {
-background-color: #e2e2e2;
+  background-color: #e2e2e2;
 }
 
 .lightergrey {
-background-color: #efefef;
+  background-color: #efefef;
 }
     
 .nav {
@@ -79,12 +79,12 @@ background-color: #efefef;
 .nav a {
   text-decoration: none;
   color: #0074D9;
-    display:block;
+  display:block;
 }
 
 .nav a:hover {
-background-color: #0074D9;
-color: white;
+  background-color: #0074D9;
+  color: white;
 }
 
 .title {
@@ -93,12 +93,22 @@ color: white;
 }
 
 .quote{
-background-color: #e2e2e2;
-text-align: center;
+  background-color: #e2e2e2;
+  text-align: center;
 }
 
 .hiddentitle{
-display: none;
+  display: none;
+}
+
+.bullets:after {
+  content: "·";
+  color: grey;
+  padding: .25em;
+}
+
+.bullets a {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -112,11 +122,11 @@ display: none;
 }
     
 .navcopyright{
-text-align: center;
+  text-align: center;
 }
     
 .hiddentitle{
-display: inline-block;
+  display: inline-block;
 } 
 }
 
@@ -126,7 +136,7 @@ display: inline-block;
 }
 
 .footernav{
-float: right;
+  float: right;
 }
 
 
@@ -135,21 +145,21 @@ float: right;
 }
 
 .navcopyright{
-text-align: left;
+  text-align: left;
 }
 
 @media only screen and (min-width: 60em){
-    dd {
-float: left;
+dd {
+  float: left;
 }
 
 dt {
-float: left;
-clear: left;
-width: 11rem;
+  float: left;
+  clear: left;
+  width: 11em;
 }
 
 .spaceleft{
-padding-left: 2em;
+  padding-left: 2em;
 }
 }
