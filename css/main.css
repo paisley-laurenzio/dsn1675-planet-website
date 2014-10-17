@@ -16,6 +16,25 @@ html {
   text-size-adjust: 100%;
 }
 
+
+@media only screen and (min-width: 60em){
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em){
+    html {
+        font-size: 120%;
+    }
+}
+
+@media only screen and (min-width: 120em){
+    html {
+        font-size: 130%;
+    }
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -73,6 +92,11 @@ color: white;
   margin: 0; 
 }
 
+.quote{
+background-color: #e2e2e2;
+text-align: center;
+}
+
 
 @media only screen and (min-width: 25em) {
  
@@ -83,6 +107,10 @@ color: white;
 .nav{
   text-align: center;
 }
+    
+.navcopyright{
+text-align: center;
+}
 }
 
 @media only screen and (min-width: 38em) {
@@ -90,12 +118,18 @@ color: white;
   text-align: left;   
 }
 
+.footernav{
+float: right;
+}
+
+
 .nav {
   text-align: left;
 }
+
+.navcopyright{
+text-align: left;
 }
 
-.quote{
-background-color: #e2e2e2;
-text-align: center;
+@media only screen and (min-width: 60em){
 }
