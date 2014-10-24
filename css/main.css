@@ -87,6 +87,10 @@ img {
   color: white;
 }
 
+a:focus {
+outline: 3px solid #000;
+}
+
 .title {
   text-align: center;
   margin: 0; 
