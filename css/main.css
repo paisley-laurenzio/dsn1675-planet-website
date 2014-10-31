@@ -83,6 +83,31 @@ img {
   background-color: #d0d0d0;
 }
 
+.form{
+  background-color:  #e2e2e2;
+}
+
+label{
+  display: block;
+}
+
+form div{
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  width: 30em;
+}
+
+textarea{
+  height: 10em;
+}
+
+button{
+font-size: 1em;
+}
+
 .footer{
   margin: 0;
   padding: 0;
