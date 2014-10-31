@@ -36,47 +36,59 @@
         <p class="exa island">Exploration</p>
     </div>
     
+<div class="tablewrap">   
     <table>
-      <tr>
-        <td>Vega 1</td>  
-        <td>Dec. 15, 1984</td>
-        <td>Jun. 11, 1985 </td>
-        <td>Jun. 13, 1985</td>
-        <td>Balloon</td>
-      </tr>
-        
-      <tr>
-        <td>Vega 2</td>  
-        <td>Dec. 20, 1984</td>
-        <td>Jun. 15, 1985</td>
-        <td>June 15, 1985</td>
-        <td>Lander</td>
-      </tr>
-        
-      <tr>
-        <td>Cassini</td>  
-        <td>Oct.15, 1997</td>
-        <td>Apr. 26, 1998</td>
-        <td>Ongoing</td>
-        <td>Flyby</td>
-      </tr>
-      
-      <tr>
-        <td>Mars Express</td>  
-        <td>Nov. 9, 2005</td>
-        <td>Apr. 11, 2006</td>
-        <td>Ongoing</td>
-        <td>Orbiter</td>
-      </tr>
-        
+        <thead>
+          <tr>
+            <th scope="col">Mission</th>  
+            <th scope="col">Launch</th>
+            <th scope="col">Arrival</th>
+            <th scope="col">Termination</th>
+            <th scope="col">Objective</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Vega 1</th>  
+            <td>Dec. 15, 1984</td>
+            <td>Jun. 11, 1985 </td>
+            <td>Jun. 13, 1985</td>
+            <td>Balloon</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Vega 2</th>  
+            <td>Dec. 20, 1984</td>
+            <td>Jun. 15, 1985</td>
+            <td>June 15, 1985</td>
+            <td>Lander</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Cassini</th>  
+            <td>Oct.15, 1997</td>
+            <td>Apr. 26, 1998</td>
+            <td>Ongoing</td>
+            <td>Flyby</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Mars Express</th>  
+            <td>Nov. 9, 2005</td>
+            <td>Apr. 11, 2006</td>
+            <td>Ongoing</td>
+            <td>Orbiter</td>
+          </tr>
+        </tbody>
     </table>
+</div>
     
     <main role="main" id="main" class="form">
     <h2 class="quote island push-0">Join Mars's Exploration Team</h2>
     <p class="quote gutter">Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
        
     
-    <form action="thanks.html" method="post" class="gutter-2">
+    <form action="thankyou.html" method="post" class="gutter-2">
       <div >
         <label for="name">Name</label> 
         <input id="name" class="width">
@@ -94,16 +106,19 @@
         
       <div>
         <p class="push-0"><em>Your level of awesomeness:</em></p>
-          
-        <input id="meh" type="radio" name="awesomeness-level">      
-        <label for="meh">Meh...</label>
-        
-        <input id="pretty-good" type="radio" name="awesomeness-level">      
-        <label for="pretty-good">Pretty good.</label>
-          
-        <input id="super" type="radio" name="awesomeness-level">      
-        <label for="super">Super!</label>
-      </div>    
+         <span class="radio"> 
+           <input id="meh" type="radio" name="awesomeness-level">      
+           <label for="meh">Meh...</label>
+         </span>
+         <span class="radio">  
+           <input id="pretty-good" type="radio" name="awesomeness-level">      
+           <label for="pretty-good">Pretty good.</label>
+         </span>
+         <span class="radio"> 
+           <input id="super" type="radio" name="awesomeness-level">      
+           <label for="super">Super!</label>
+         </span>
+     </div>    
         
       <div>
         <label for="message">Explain why you deserve to go:</label> 

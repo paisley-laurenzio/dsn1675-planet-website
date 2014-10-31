@@ -89,6 +89,7 @@ img {
 
 label{
   display: block;
+  vertical-align: middle;
 }
 
 form div{
@@ -104,7 +105,8 @@ display: inline-block;
 }
 
 input{
-height: 3em;
+  height: 3em;
+  vertical-align: middle;
 }
 
 textarea{
@@ -122,9 +124,33 @@ button:hover{
   color: white;
 }
 
+.radio{
+  white-space: nowrap;
+}
+
 form{
-max-width: 35em;
-margin: 0 auto;
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 40em;
+}
+
+.tablewrap{
+overflow-x: auto;
+}
+
+th,td{
+border-bottom: 1px solid #d0d0d0;
+text-align: left;
+padding: .5em;
+}
+
+thead th{
+background-color: #e2e2e2;
 }
 
 .footer{
@@ -166,6 +192,11 @@ margin: 0 auto;
 .quote{
   background-color: #e2e2e2;
   text-align: center;
+}
+
+.thanks{
+  text-align: center;
+  padding-top: 5rem;
 }
 
 .hiddentitle{
