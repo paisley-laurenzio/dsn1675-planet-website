@@ -48,52 +48,52 @@
       <tr>
         <td>Vega 2</td>  
         <td>Dec. 20, 1984</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Jun. 15, 1985</td>
+        <td>June 15, 1985</td>
+        <td>Lander</td>
       </tr>
         
       <tr>
-        <td></td>  
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Cassini</td>  
+        <td>Oct.15, 1997</td>
+        <td>Apr. 26, 1998</td>
+        <td>Ongoing</td>
+        <td>Flyby</td>
       </tr>
       
       <tr>
-        <td></td>  
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Mars Express</td>  
+        <td>Nov. 9, 2005</td>
+        <td>Apr. 11, 2006</td>
+        <td>Ongoing</td>
+        <td>Orbiter</td>
       </tr>
         
     </table>
     
     <main role="main" id="main" class="form">
-    <h2>Join Mars's Exploration Team</h2>
-    <p>Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
-      
+    <h2 class="quote island push-0">Join Mars's Exploration Team</h2>
+    <p class="quote gutter">Are you interested in exploring Mars with a group of extremely talented people? <em>Sign up below!</em></p>
+       
     
-    <form action="thanks.html" method="post">
-      <div>
+    <form action="thanks.html" method="post" class="gutter-2">
+      <div >
         <label for="name">Name</label> 
-        <input id="name">
+        <input id="name" class="width">
       </div>
         
       <div>    
         <label for="e-mail">E-mail</label> 
-        <input type="e-mail" id="e-mail">
+        <input type="e-mail" id="e-mail" class="width">
       </div>
       
       <div>
         <label for="age">Age</label> 
-        <input type="number" min="18">
+        <input type="number" min="18" max="130" class="width">
       </div>
         
-      <fieldset>
-        <legend><em>Your level of awesomeness:</em></legend>
+      <div>
+        <p class="push-0"><em>Your level of awesomeness:</em></p>
           
         <input id="meh" type="radio" name="awesomeness-level">      
         <label for="meh">Meh...</label>
@@ -103,15 +103,16 @@
           
         <input id="super" type="radio" name="awesomeness-level">      
         <label for="super">Super!</label>
-      </fieldset>    
+      </div>    
         
       <div>
         <label for="message">Explain why you deserve to go:</label> 
-        <textarea id="message"></textarea>
+        <textarea id="message" class="width"></textarea>
       </div>    
-        
-      <button type="submit">Sign Up</button>  
-          
+    
+      <div class="island push-0 quote">
+        <button type="submit">Sign Up</button>  
+      </div>
     </form>  
         
     </main>
