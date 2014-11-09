@@ -200,15 +200,14 @@ background-color: #FA6121;
 body#home a#planetnav,
 body#moon a#moonnav,
 body#expo a#exponav {
-  color: white;
-  background: #466289;  
+  color: black; 
 }
 
 .title {
   text-align: center;
   margin: 0;
   font-size: 4rem;
-    letter-spacing: 12px;
+  letter-spacing: 12px;
 }
 
 .quote{
