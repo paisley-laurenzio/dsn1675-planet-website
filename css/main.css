@@ -61,7 +61,7 @@ outline: 3px solid #000;
 .skip-links a {
   position: absolute;
   top: -3em;
-  background-color: #0074D9;
+  background-color: #627894;
   color: #fff;
   padding: 0.5em 0.75em;
   text-decoration: none;
@@ -80,11 +80,11 @@ img {
 .header{
   margin: 0;
   padding: 0;
-  background-color: #d0d0d0;
+  background-color: #627894;
 }
 
 .form{
-  background-color:  #e2e2e2;
+  background-color:  #A0AEC1;
 }
 
 label{
@@ -120,7 +120,7 @@ button{
 }
 
 button:hover{
-  background-color: #0074D9;
+  background-color: #FA6121;
   color: white;
 }
 
@@ -150,22 +150,22 @@ padding: .5em;
 }
 
 thead th{
-background-color: #e2e2e2;
+background-color: #FA6121;
 }
 
 .footer{
   margin: 0;
   padding: 0;
-  background-color: #d0d0d0;
+  background-color: #627894;
   overflow: hidden;
 }
 
 .lightgrey {
-  background-color: #e2e2e2;
+  background-color: #DBE8F9;
 }
 
 .lightergrey {
-  background-color: #efefef;
+  background-color: #A0AEC1;
 }
     
 .nav {
@@ -175,12 +175,12 @@ background-color: #e2e2e2;
 
 .nav a {
   text-decoration: none;
-  color: #0074D9;
+  color: #FFB739;
   display:block;
 }
 
 .nav a:hover {
-  background-color: #0074D9;
+  background-color: #466289;
   color: white;
 }
 
@@ -190,7 +190,11 @@ background-color: #e2e2e2;
 }
 
 .quote{
-  background-color: #e2e2e2;
+  background-color: #DBE8F9;
+  text-align: center;
+}
+
+.center{
   text-align: center;
 }
 
@@ -205,7 +209,7 @@ background-color: #e2e2e2;
 
 .bullets:after {
   content: "·";
-  color: grey;
+  color: #FFB739;
   padding: .25em;
 }
 
