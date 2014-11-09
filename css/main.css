@@ -200,7 +200,8 @@ background-color: #FA6121;
 body#home a#planetnav,
 body#moon a#moonnav,
 body#expo a#exponav {
-  color: black; 
+  color: black;
+  border-bottom: .25em solid #466289;
 }
 
 .title {
