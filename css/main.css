@@ -202,6 +202,7 @@ body#moon a#moonnav,
 body#expo a#exponav {
   color: black;
   border-bottom: .25em solid #466289;
+  font-family: 'Megrim', cursive;
 }
 
 .title {
