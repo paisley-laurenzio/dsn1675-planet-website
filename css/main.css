@@ -197,6 +197,13 @@ background-color: #FA6121;
   color: white;
 }
 
+body#home a#planetnav,
+body#moon a#moonnav,
+body#expo a#exponav {
+  color: white;
+  background: #466289;  
+}
+
 .title {
   text-align: center;
   margin: 0;
