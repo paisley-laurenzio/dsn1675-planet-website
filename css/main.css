@@ -9,7 +9,6 @@ html {
   padding: 0;
   box-sizing: border-box;
 
-  font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -42,8 +41,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 a:hover,
 a:active{
 outline: none;
@@ -88,12 +88,9 @@ h1{
   font-family: 'Megrim', cursive;
 }
 
-h2{
-font-family: 'Megrim', cursive;
-}
 
 .megrim{
-font-family: 'Megrim', cursive;
+  font-family: 'Megrim', cursive;
 }
 
 .form{
@@ -202,7 +199,6 @@ body#moon a#moonnav,
 body#expo a#exponav {
   color: black;
   border-bottom: .25em solid #466289;
-  font-family: 'Megrim', cursive;
 }
 
 .title {
